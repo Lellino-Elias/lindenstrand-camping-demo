@@ -17,7 +17,6 @@ const lindenstrand: CampsiteConfig = {
   see: "Wolfgangsee",
   regionLong: "Wolfgangsee · Salzkammergut · Salzburg",
 
-  theme: "schiefer",
   heroVariant: "center",
 
   claim: "Mit den Füßen im Wolfgangsee aufwachen",
@@ -262,7 +261,6 @@ const lindenstrand: CampsiteConfig = {
     mail: "camping@lindenstrand.at",
     facebook: "https://www.facebook.com/romantikcamping/",
     adresse: "Schwand 19 · 5342 Abersee · St. Gilgen",
-    coords: { lat: 47.7398, lng: 13.4027 },
   },
 
   languages: ["DE", "EN"],
