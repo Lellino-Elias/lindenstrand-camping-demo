@@ -1,5 +1,10 @@
-import type { CampsiteConfig } from "../types";
+import type { CampsiteConfig } from "../../../../camping-template/src/content/types";
 
+/**
+ * Romantik-Camping Wolfgangsee Lindenstrand — Familie Leitner, Abersee (St. Gilgen).
+ * Inhalte zu 100 % aus raw/digest abgeleitet. Bilder provenienzgebunden, je einmalig.
+ * Preise: Richtpreise aus der aktuellen Preisliste (Stellplatz + 2 Erwachsene, günstigste Saison).
+ */
 const IMG = "/campsites/lindenstrand";
 
 const lindenstrand: CampsiteConfig = {
@@ -10,53 +15,53 @@ const lindenstrand: CampsiteConfig = {
   region: "Salzkammergut",
   brandKind: "Romantik-Camping",
   see: "Wolfgangsee",
-  regionLong: "Salzkammergut · Wolfgangsee · Österreich",
+  regionLong: "Wolfgangsee · Salzkammergut · Salzburg",
 
   theme: "schiefer",
   heroVariant: "center",
 
-  claim: "Am Lindenstrand beginnt dein Wolfgangsee",
-  claimEmphasis: "dein Wolfgangsee",
+  claim: "Mit den Füßen im Wolfgangsee aufwachen",
+  claimEmphasis: "im Wolfgangsee",
   intro:
-    "Mitten im Salzkammergut, direkt am Ufer des Wolfgangsees: 209 großzügige Plätze zwischen altem Obstgarten, Sommerwiese und 140 m Kiesstrand — von Familie Leitner persönlich geführt.",
+    "Ein familiär geführter Platz auf einem alten Bauernhof: 209 großzügige Stellplätze zwischen Obstgarten, Sommerwiese und eigenem Kiesstrand — direkt am glasklaren Wolfgangsee im Salzkammergut.",
 
   statement: {
-    text: "Bis zum Wasser sind es nur wenige Schritte — der Kiesstrand liegt gleich hinter deinem Stellplatz.",
-    emphasis: "wenige Schritte",
+    text: "Elf Plätze stehen in erster Reihe — da beginnt der Wolfgangsee fünf Schritte hinter deinem Vorzelt.",
+    emphasis: "fünf Schritte",
   },
 
   pillars: [
     {
-      title: "Direkt am Wolfgangsee",
-      text: "Plätze in erster Reihe, ein privater Steg und 140 m Kiesstrand mit flachem Einstieg — der See gehört hier zum Alltag.",
-      image: { src: `${IMG}/activity-50fc4913fd.webp`, alt: "Stellplätze am Seeufer des Wolfgangsees mit Blick auf die Berge" },
+      title: "Mitten im Wolfgangsee",
+      text: "Glasklares, türkisgrünes Wasser direkt am Platz — vom Steg geht es kopfüber in den See.",
+      image: { src: `${IMG}/activity-a9a73a80c9.webp`, alt: "Sprung in den türkisgrünen Wolfgangsee am Lindenstrand" },
     },
     {
-      title: "Hof mit Geschichte",
-      text: "Der historische Bauernhof von Familie Leitner steht für gelebte Tradition — Wiesen und Felder bewirtschaften wir bis heute selbst.",
-      image: { src: `${IMG}/activity-e972e8d9d5.webp`, alt: "Historisches Bauernhaus von Camping Lindenstrand mit Fahnen" },
+      title: "Vier Plätze, ein See",
+      text: "Am Seeufer, Bei den Linden, Im Obstgarten oder Auf der Sommerwiese — such dir deinen Lieblingsplatz.",
+      image: { src: `${IMG}/activity-8ad78f2ed0.webp`, alt: "Stellplätze unter den Linden am Ufer des Wolfgangsees" },
     },
     {
-      title: "Im alten Obstgarten",
-      text: "Schon Opas Obstbäume spenden Schatten: Hier stellst du Zelt oder Wohnwagen unter knorrige, über Jahre veredelte Originale.",
-      image: { src: `${IMG}/activity-667fe899ce.webp`, alt: "Stellplätze unter alten Obstbäumen im Obstgarten am Lindenstrand" },
+      title: "Familiär & echt",
+      text: "Ein bewirtschafteter Bauernhof am See, seit Generationen in der Hand der Familie Leitner.",
+      image: { src: `${IMG}/activity-e972e8d9d5.webp`, alt: "Historischer Hof des Camping Lindenstrand am Wolfgangsee" },
     },
   ],
 
   usps: [
-    "140 m Kiesstrand",
-    "Privater Steg am See",
-    "209 großzügige Plätze",
-    "SUP, Kajak & Räder",
+    "Eigener Kiesstrand am See",
+    "209 Stellplätze mit Strom",
+    "Steg & Bootsverleih",
     "Hunde willkommen",
-    "Gratis WLAN",
+    "WLAN am ganzen Platz",
+    "Familiär geführt",
   ],
 
   trust: {
     heading: "Darauf ist am Lindenstrand Verlass",
-    headingEmphasis: "Lindenstrand",
+    headingEmphasis: "Verlass",
     intro:
-      "Seit Generationen in Familienhand: ein gepflegter Platz direkt am See, mit eigenem Strand, modernem Sanitär und kurzen Wegen — und Gastgebern, die ihren Hof noch selbst bewirtschaften.",
+      "Seit Generationen in Familienhand: ein Hof, der noch bewirtschaftet wird, kurze Wege zum Wasser und ein Platz, an dem Kinder den ganzen Tag draußen sein dürfen.",
   },
 
   awards: [],
@@ -64,123 +69,185 @@ const lindenstrand: CampsiteConfig = {
   saison: { von: "April", bis: "Oktober" },
 
   hero: {
-    aerial: { src: `${IMG}/activity-956f5ed570.webp`, alt: "Luftaufnahme: Romantik-Camping Lindenstrand am Ufer des Wolfgangsees" },
+    aerial: {
+      src: `${IMG}/activity-956f5ed570.webp`,
+      alt: "Luftaufnahme: Camping Lindenstrand am Ufer des Wolfgangsees",
+    },
   },
 
   breather: {
-    image: { src: `${IMG}/activity-2b491fd14e.webp`, alt: "Morgenstimmung über dem Wolfgangsee beim Camping Lindenstrand" },
-    line: "Wenn der erste Sonnenstrahl über dem Wolfgangsee aufgeht.",
+    image: { src: `${IMG}/activity-2b491fd14e.webp`, alt: "Morgenstimmung am Wolfgangsee beim Camping Lindenstrand" },
+    line: "Morgens liegt der Wolfgangsee noch ganz still vor dem Platz.",
   },
 
   camping: {
-    heading: "Camping am Lindenstrand",
+    heading: "Camping zwischen Hof und Seeufer",
     intro:
-      "Vier Platzkategorien zwischen See, Linden, Obstgarten und Sommerwiese — dazu alles, was den Campingtag leicht macht: Strom, WLAN, moderne Sanitäranlagen und der Nahversorger gleich am Hof.",
+      "Vom Stellplatz in den See sind es nur ein paar Schritte: vier Platzkategorien, zwei moderne Sanitärhäuser und alles, was ein entspannter Campingtag am Wolfgangsee braucht.",
     features: [
       {
-        title: "Plätze am Seeufer",
-        text: "Elf Stellplätze liegen direkt am Wasser — einschlafen beim Plätschern der Wellen, aufwachen mit Blick über den Wolfgangsee.",
-        image: { src: `${IMG}/activity-97b2e28017.webp`, alt: "Stellplätze direkt am Kiesufer des Wolfgangsees" },
+        title: "Stellplätze mit Seeblick",
+        text: "Ebene Plätze von 70 bis 100 m², jeder mit Stromanschluss, die meisten mit Wasser und Abwasser — und morgens zuerst der Blick aufs Wasser.",
+        image: { src: `${IMG}/activity-97b2e28017.webp`, alt: "Stellplätze am Seeufer des Wolfgangsees" },
       },
       {
-        title: "Modernes Sanitär & Waschküche",
-        text: "Zwei Sanitärhäuser mit gepflegten Duschen, Familienbad und Waschmaschinen — eines davon barrierefrei und mit Babybad.",
-        image: { src: `${IMG}/activity-677f9e86fd.webp`, alt: "Moderne Waschbecken und Waschmaschinen im Sanitärhaus am Lindenstrand" },
+        title: "Eigener Kiesstrand",
+        text: "Der 140 m lange, flach abfallende Kiesstrand liegt nur wenige Schritte vom Platz — der seichte Uferbereich ist ideal für Familien mit Kindern.",
+        image: { src: `${IMG}/activity-67b88f6237.webp`, alt: "Kiesstrand am Wolfgangsee beim Camping Lindenstrand" },
       },
       {
-        title: "Nahversorger & Pizza-to-go",
-        text: "Der kleine Selbstbedienungsladen am alten Bauernhaus führt Frühstückssemmeln, regionale Produkte und die beliebte Pizza-to-go.",
-        image: { src: `${IMG}/activity-117cfd7e5c.webp`, alt: "Gäste im Selbstbedienungsladen am Camping Lindenstrand" },
+        title: "Steg & Bootsverleih",
+        text: "Unser Steg reicht weit in den See — für den Sprung ins klare Wasser. SUP, Kajak, E-Bikes und Liegestühle gibt es direkt an der Rezeption.",
+        image: { src: `${IMG}/activity-3adbce3094.webp`, alt: "Holzsteg in den Wolfgangsee am Lindenstrand" },
+      },
+      {
+        title: "Zwei Sanitärhäuser",
+        text: "Stadlbad und Strandhaus bieten moderne Duschen, Waschmaschinen und ein eigenes Babybad — das Stadlbad ist komplett barrierefrei.",
+        image: { src: `${IMG}/activity-677f9e86fd.webp`, alt: "Modernes Sanitärhaus mit Waschküche am Lindenstrand" },
       },
       {
         title: "Strandhaus-Lounge",
-        text: "Im Obergeschoss des Strandhauses: viel Holz, große Glasflächen und drei Balkone mit Panoramablick auf Schafberg und See.",
-        image: { src: `${IMG}/activity-d9f8532e52.webp`, alt: "Helle Holz-Lounge im Strandhaus mit Balkon und Seeblick" },
+        text: "Die Lounge im Strandhaus öffnet sich mit drei Balkonen zum See und zum Schafberg — mit Kaffee, Snackautomat und kostenlosem WLAN.",
+        image: { src: `${IMG}/activity-d9f8532e52.webp`, alt: "Strandhaus-Lounge mit Seeblick am Camping Lindenstrand" },
       },
       {
-        title: "Privater Steg am See",
-        text: "Der hauseigene Steg reicht weit in den Wolfgangsee hinaus — perfekt für den Sprung ins glasklare, tiefe Wasser.",
-        image: { src: `${IMG}/activity-3adbce3094.webp`, alt: "Privater Steg am Wolfgangsee beim Camping Lindenstrand im Abendlicht" },
-      },
-      {
-        title: "Bei den Linden",
-        text: "Geschotterte Parzellen zwischen See und Bauernhaus, benannt nach den Linden, die überall auf dem Areal stehen.",
-        image: { src: `${IMG}/activity-8ad78f2ed0.webp`, alt: "Stellplätze unter Linden mit Blick über den Wolfgangsee" },
+        title: "Shop & Pizza-to-go",
+        text: "Der Selbstbedienungs-Laden führt frisches Gebäck, regionale Produkte und das beliebte Pizza-to-go; ein Wirtshaus liegt fußläufig am Platz.",
+        image: { src: `${IMG}/activity-117cfd7e5c.webp`, alt: "Nahversorger-Shop am Campingplatz Lindenstrand" },
       },
     ],
   },
 
   kinder: {
-    heading: "Kinder lieben den Lindenstrand",
+    heading: "Hier dürfen Kinder Kinder sein",
     intro:
-      "Flacher Kiesstrand zum Planschen, zwei Spielplätze und ein Spielzimmer im Strandhaus — hier sind Kinder den ganzen Tag draußen.",
+      "Flacher Einstieg ins Wasser, zwei Spielplätze und ein Spielzimmer für Regentage — am Lindenstrand sind die Kleinen den ganzen Tag draußen.",
     features: [
       {
-        title: "Großer Spielplatz",
-        text: "Rutsche, Schaukel und Ballwiese mit Fußballtoren — Platz zum Austoben gleich neben den Stellplätzen auf der Sommerwiese.",
-        image: { src: `${IMG}/activity-59846d50a1.webp`, alt: "Mädchen spielen Fußball am Tor auf der Ballwiese, Rutsche und Klettergerüst im Hintergrund" },
+        title: "Spielplatz & Fußballwiese",
+        text: "Großer Spielplatz mit Rutsche und Schaukel, dazu Ballwiesen mit Toren und Badmintonnetz — Platz zum Auspowern direkt am Hof.",
+        image: { src: `${IMG}/activity-59846d50a1.webp`, alt: "Kinder beim Fußballspielen am Spielplatz Lindenstrand" },
       },
       {
-        title: "Flacher Kiesstrand",
-        text: "Die seichte Uferzone mit warmen Kieseln ist ideal für die ersten Schwimmversuche der Kleinen.",
-        image: { src: `${IMG}/activity-e93eb920c0.webp`, alt: "Flacher Kiesstrand mit planschenden Kindern am Wolfgangsee" },
+        title: "Spielzimmer im Strandhaus",
+        text: "Wird das Wetter mal nass, warten im Strandhaus ein Spielzimmer für die Kleinsten und gemütliche Ecken zum Bauen und Lesen.",
+        image: { src: `${IMG}/activity-7eb829e286.webp`, alt: "Kinderspielzimmer im Strandhaus am Lindenstrand" },
+      },
+      {
+        title: "Eigenes Babybad",
+        text: "Im Stadlbad gibt es ein liebevoll gestaltetes Babybad mit Wanne, Wickeltisch und Kindertoilette — alles für die ganz Kleinen.",
+        image: { src: `${IMG}/activity-ca824fa442.webp`, alt: "Babybad im Sanitärhaus Stadlbad am Lindenstrand" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Rund um den Wolfgangsee",
+    heading: "Das Salzkammergut vor der Vorzelttür",
     intro:
-      "Baden, paddeln, radeln: Der See liegt vor dem Vorzelt, Rad- und Wanderwege starten direkt vor dem Platz.",
+      "Baden, Paddeln, Radeln, Wandern — und für Regentage ein Erlebnispark in der Nähe: rund um den Wolfgangsee liegt dein Sommerprogramm direkt bereit.",
     items: [
       {
-        title: "Baden & Klippenspringen",
-        text: "Glasklares Wasser direkt am Platz — und für Mutige lockt die nahe Falkensteinwand zum Sprung ins kühle Nass.",
-        image: { src: `${IMG}/activity-a9a73a80c9.webp`, alt: "Sprung ins glasklare Wasser des Wolfgangsees am Lindenstrand" },
+        title: "Baden & SUP",
+        text: "Glasklares, türkisgrünes Wasser direkt am Platz — Stand-up-Paddles leihst du an der Rezeption.",
+        image: { src: `${IMG}/activity-39799a8c3b.webp`, alt: "Stand-up-Paddling am Wolfgangsee" },
       },
       {
-        title: "SUP, Kajak & Räder",
-        text: "Die Leihstation hat SUP-Boards, Einer- und Zweier-Kajaks, E-Bikes und Räder für den Tag am und um den See.",
-        image: { src: `${IMG}/activity-7a24561a17.webp`, alt: "Kajak auf dem Wolfgangsee in der Abendsonne" },
+        title: "Mit dem Kajak hinaus",
+        text: "Im Einer- oder Zweier-Kajak über den stillen See gleiten — am schönsten früh am Morgen und am Abend.",
+        image: { src: `${IMG}/activity-7a24561a17.webp`, alt: "Kajak am Wolfgangsee bei Sonnenuntergang" },
       },
       {
-        title: "Sonnen am Seeufer",
-        text: "Liegestuhl ausleihen, auf den Naturwiesen neben der Bucht entspannen und den Blick über den See schweifen lassen.",
-        image: { src: `${IMG}/activity-67b88f6237.webp`, alt: "Entspannen am Seeufer mit Steg und Bergblick am Lindenstrand" },
+        title: "Radwege ab Platz",
+        text: "Direkt vor dem Haus führt ein Radweg entlang; Räder und E-Bikes gibt es an der Rezeption — los geht es ohne Umwege.",
+        image: { src: `${IMG}/activity-4c249d0218.webp`, alt: "Radfahren mit Bergpanorama am Wolfgangsee" },
+      },
+      {
+        title: "Wandern & Klettern",
+        text: "Wanderwege aller Schwierigkeitsgrade starten direkt am Campingplatz — von gemütlich bis hinauf zu Klettersteigen und Aussichtsgipfeln.",
+        image: { src: `${IMG}/activity-b49f6a8caf.webp`, alt: "Wandern hoch über dem Wolfgangsee" },
+      },
+      {
+        title: "Abarena für Kinder",
+        text: "Der Erlebnispark Abarena zwischen Berg und See begeistert bei jedem Wetter mit Wasserspielplatz, Riesenrutsche und Indoor-Arena.",
+        image: { src: `${IMG}/activity-28dc60163b.webp`, alt: "Wasserspielplatz im Erlebnispark Abarena nahe dem Wolfgangsee" },
       },
     ],
   },
 
   anreise: {
-    heading: "Dein Weg an den Lindenstrand",
+    heading: "Dein Weg an den Wolfgangsee",
     modes: [
-      { title: "Mit dem Auto", text: "Über die A1 West Autobahn bis Mondsee oder Salzburg, dann auf der B158 nach Abersee/St. Gilgen — der Platz liegt in Schwand 19, direkt am See." },
-      { title: "Mit der Bahn", text: "Bahnhof Salzburg Hbf, weiter mit dem Postbus Richtung Bad Ischl bis Abersee — von der Haltestelle sind es nur wenige Minuten." },
-      { title: "Mit dem Schiff", text: "Im Sommer verkehrt die Wolfgangsee-Schifffahrt zwischen St. Gilgen, Abersee und St. Wolfgang." },
+      {
+        title: "Mit dem Auto",
+        text: "Über die A1 Westautobahn bis Mondsee oder Thalgau, dann auf der B158 nach Abersee/St. Gilgen — der Platz liegt in Schwand 19 und ist beschildert.",
+      },
+      {
+        title: "Mit Bahn & Bus",
+        text: "Ab Salzburg Hauptbahnhof mit dem Postbus Richtung Bad Ischl bis Abersee — die Haltestelle liegt nur wenige Minuten vom Platz.",
+      },
+      {
+        title: "Mit dem Flugzeug",
+        text: "Der Flughafen Salzburg ist rund 45 Autominuten entfernt — von dort weiter über die B158 ans Seeufer.",
+      },
     ],
   },
 
   galerie: {
     heading: "Sommer am Lindenstrand",
     headingEmphasis: "Sommer",
-    intro: "Seeluft, alte Bäume und lange Abende am Wasser — ein paar Eindrücke vom Platz.",
+    intro: "Vom historischen Bauernhof bis zum Steg im See — ein paar Eindrücke von deinem Sommer am Wolfgangsee.",
     tag: "April bis Oktober",
-    moreCount: 20,
+    moreCount: 24,
     images: [
-      { src: `${IMG}/activity-f779b8fe49.webp`, alt: "Oldtimer-Campingbus unter Bäumen am Lindenstrand" },
-      { src: `${IMG}/activity-fa3163b4ed.webp`, alt: "Stellplätze mit Wohnmobilen zwischen Bäumen mit Bergblick" },
-      { src: `${IMG}/activity-7eb829e286.webp`, alt: "Spielzimmer im Strandhaus mit Riesenbausteinen und Sitzsäcken" },
-      { src: `${IMG}/activity-57050b4f1f.webp`, alt: "Stellplätze auf der Sommerwiese mit Blick auf den Wolfgangsee" },
+      { src: `${IMG}/activity-765128f9f8.webp`, alt: "Frisches Gebäck aus dem Shop am Lindenstrand" },
+      { src: `${IMG}/activity-57050b4f1f.webp`, alt: "Stellplätze auf der Sommerwiese mit Bergblick" },
+      { src: `${IMG}/activity-e93eb920c0.webp`, alt: "Entspannen am Seeufer mit Blick auf den Steg" },
+      { src: `${IMG}/activity-1f87832e1a.webp`, alt: "Stellplätze Bei den Linden am Wolfgangsee" },
+    ],
+  },
+
+  story: {
+    kicker: "Familie Leitner",
+    heading: "Ein Hof, der noch ein Hof ist",
+    intro:
+      "Der Lindenstrand ist kein Programm-Campingplatz, sondern ein echter Bauernhof am See — seit Generationen in der Hand der Familie Leitner, die die Wiesen ringsum bis heute selbst bewirtschaftet.",
+    chapters: [
+      {
+        no: "01",
+        kicker: "Wurzeln",
+        title: "Das alte Bauernhaus",
+        text: "Der historische Hof ist das Herz des Platzes — er steht für die Verbundenheit der Familie mit dieser Landschaft und für Beständigkeit über Generationen.",
+        image: { src: `${IMG}/activity-fe59294e1c.webp`, alt: "Historisches Bauernhaus am Camping Lindenstrand" },
+      },
+      {
+        no: "02",
+        kicker: "Obstgarten",
+        title: "Großvaters Bäume",
+        text: "Die alten Obstbäume hat noch der Großvater gepflanzt und veredelt — manche tragen Sorten, die es nur hier gibt. In ihrem Schatten stehen heute Zelte und Wohnwagen.",
+        image: { src: `${IMG}/activity-667fe899ce.webp`, alt: "Wohnwagen unter alten Obstbäumen im Obstgarten" },
+      },
+      {
+        no: "03",
+        kicker: "Persönlich",
+        title: "Familie Leitner",
+        text: "Geheizt wird ausschließlich mit Holz aus dem eigenen Wald — und an der Rezeption stehst du der Familie selbst gegenüber, die den Platz mit Herz führt.",
+        image: { src: `${IMG}/activity-67a0a635e3.webp`, alt: "Familie Leitner am Camping Lindenstrand" },
+      },
     ],
   },
 
   booking: {
-    heading: "Reservier deinen Platz am Wolfgangsee",
-    headingEmphasis: "am Wolfgangsee",
-    intro: "Wähle Kategorie und Zeitraum — Familie Leitner bestätigt deine Anfrage persönlich.",
+    heading: "Sichere dir deinen Platz am See",
+    headingEmphasis: "am See",
+    intro:
+      "Wähle Kategorie, Zeitraum und Personen — Familie Leitner meldet sich persönlich mit deiner Verfügbarkeit am Wolfgangsee.",
     pricesArePlaceholder: false,
-    priceNote: "ab-Preise Vorsaison · Stellplatz inkl. 2 Erwachsene · zzgl. Ortstaxe € 3,50 pro Person/Nacht · Hund ab € 4",
-    highlight: { title: "Direkt am See", text: "Von den Seeplätzen sind es nur wenige Schritte bis ins Wasser." },
+    priceNote:
+      "Richtpreise ab günstigster Saison — Stellplatz inkl. 2 Erwachsene; jede weitere Person ab € 10, Kinder (4–14) ab € 5,50. Zzgl. Ortstaxe € 3,50 pro Erwachsener/Nacht.",
+    highlight: {
+      title: "Direkt am Seeufer",
+      text: "Elf Plätze der Kategorie „Am Seeufer“ liegen in erster Reihe direkt am Wasser.",
+    },
     categories: [
       { id: "sommerwiese", label: "Auf der Sommerwiese", perNight: 31, perExtraGuest: 10 },
       { id: "obstgarten", label: "Im Obstgarten", perNight: 32, perExtraGuest: 10 },
@@ -195,22 +262,31 @@ const lindenstrand: CampsiteConfig = {
     mail: "camping@lindenstrand.at",
     facebook: "https://www.facebook.com/romantikcamping/",
     adresse: "Schwand 19 · 5342 Abersee · St. Gilgen",
-    coords: { lat: 47.7398212, lng: 13.4027492 },
+    coords: { lat: 47.7398, lng: 13.4027 },
   },
 
   languages: ["DE", "EN"],
 
   nav: [
-    { label: "Camping", href: "#camping", children: [
-      { label: "Stellplätze", href: "#camping" },
-      { label: "Sanitär", href: "#camping" },
-    ]},
+    {
+      label: "Camping",
+      href: "#camping",
+      children: [
+        { label: "Stellplätze", href: "#camping" },
+        { label: "Sanitär & Strandhaus", href: "#camping" },
+      ],
+    },
     { label: "Familie", href: "#kinder" },
     { label: "Aktiv", href: "#aktivitaeten" },
-    { label: "Preise & Lage", href: "#booking", children: [
-      { label: "Preise", href: "#booking" },
-      { label: "Anreise", href: "#anreise" },
-    ]},
+    { label: "Unser Hof", href: "#story" },
+    {
+      label: "Preise & Anreise",
+      href: "#booking",
+      children: [
+        { label: "Preise", href: "#booking" },
+        { label: "Anreise", href: "#anreise" },
+      ],
+    },
   ],
 };
 
