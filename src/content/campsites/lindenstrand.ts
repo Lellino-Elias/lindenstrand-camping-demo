@@ -1,4 +1,4 @@
-import type { CampsiteConfig } from "../../../../camping-template/src/content/types";
+import type { CampsiteConfig } from "../types";
 
 /**
  * Romantik-Camping Wolfgangsee Lindenstrand — Familie Leitner, Abersee (St. Gilgen).
