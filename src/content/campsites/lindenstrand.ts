@@ -256,6 +256,7 @@ const lindenstrand: CampsiteConfig = {
   },
 
   kontakt: {
+    coords: { lat: 47.739858, lng: 13.40284 },
     tel: "+43 6227 3205",
     telHref: "tel:+4362273205",
     mail: "camping@lindenstrand.at",
